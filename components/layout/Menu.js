@@ -10,33 +10,33 @@ export default function Menu() {
             <ul className="navigation">
                 <li className="dropdown">
                     <Link href="/">Home </Link>
-                    <ul>
+                    {/* <ul>
                         <li><Link href="/">Home One</Link></li>
                         <li><Link href="index-2">Home Two</Link></li>
                         <li><Link href="index-3">Home Three</Link></li>
                         <li><Link href="index-4">Home Four</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li className="dropdown">
                     <Link href="#">About</Link>
-                    <ul>
+                    {/* <ul>
                         <li><Link href="about">About</Link></li>
                         <li><Link href="team">Team</Link></li>
                         <li><Link href="restaurant">Restaurant</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li className="dropdown">
-                    <Link href="#">Menu</Link>
-                    <ul>
+                    <Link href="#">Products</Link>
+                    {/* <ul>
                         <li><Link href="menu">Menu</Link></li>
                         <li><Link href="milkshake">Milk Shake</Link></li>
                         <li><Link href="frappe">Frappe</Link></li>
                         <li><Link href="boba-tea">Boba Tea</Link></li>
                         <li><Link href="slushy">Slushy</Link></li>
                         
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown">
+                {/* <li className="dropdown">
                     <Link href="#">Gallery</Link>
                     <ul>
                         <li><Link href="gallery">Gallery</Link></li>
@@ -51,7 +51,7 @@ export default function Menu() {
                         <li><Link href="blog-details">Blog Details</Link></li>
                         <li><Link href="/error">Not Found</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 <li>
                     <Link href="contact">Contact</Link>
                 </li>

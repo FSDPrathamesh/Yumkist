@@ -16,7 +16,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu, handleS
         	<div className="auto-container clearfix">
             	
 				<div className="pull-left logo-box">
-					<div className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" title=""/></Link></div>
+					<div className="logo"><Link href="/"><img src="assets/images/Yumkisst.png" alt="" title=""/></Link></div>
 				</div>
 				
 				<div className="nav-outer clearfix">
@@ -35,7 +35,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu, handleS
 						<div className="search-box-btn search-box-outer"><span className="icon fa fa-search" onClick={handlePopup}></span></div>
 						
 						{/* Nav Btn */}
-						<div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-2" onClick={handleSidebar}></span></div>
+						{/* <div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-2" onClick={handleSidebar}></span></div> */}
 							
 					</div>
 				</div>
@@ -46,7 +46,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu, handleS
 		<div className="sticky-header">
             <div className="auto-container clearfix">
                 <div className="logo pull-left">
-                    <Link href="/" title=""><img src="assets/images/logo-small.png" alt="" title="" /></Link>
+                    <Link href="/" title=""><img src="assets/images/Yumkisst.png" alt="" title="" /></Link>
                 </div>
                 <div className="pull-right">
                     <nav className="main-menu">
@@ -57,7 +57,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu, handleS
 					<div className="outer-box clearfix">
 
 						<div className="search-box-btn search-box-outer"><span className="icon fa fa-search" onClick={handlePopup}></span></div>
-						<div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-2" onClick={handleSidebar}></span></div>
+						{/* <div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-2" onClick={handleSidebar}></span></div> */}
 						
 					</div>
 					

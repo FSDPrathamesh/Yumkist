@@ -7,14 +7,14 @@ export default function Recipe() {
         {/* Recipe Section */}
         <section className="recipe-section">
             <div className="section-text">yummy</div>
-            <div className="icon-layer-one" style={{ backgroundImage:'url(assets/images/icons/icon-1.png)'}} ></div>
+            {/* <div className="icon-layer-one" style={{ backgroundImage:'url(assets/images/icons/icon-1.png)'}} ></div>
             <div className="icon-layer-two" style={{ backgroundImage:'url(assets/images/icons/icon-2.png)'}} ></div>
-            <div className="icon-layer-three" style={{ backgroundImage:'url(assets/images/icons/icon-3.png)'}} ></div>
+            <div className="icon-layer-three" style={{ backgroundImage:'url(assets/images/icons/icon-3.png)'}} ></div> */}
             <div className="auto-container">
                 {/* Sec Title */}
                 <div className="sec-title centered">
                     <div className="title">Best for You</div>
-                    <h2>Detox Smoothie Recipe</h2>
+                    <h2>Achari Chatka Makhana</h2>
                     <div className="separate"></div>
                 </div>
                 <div className="inner-container">
@@ -28,8 +28,8 @@ export default function Recipe() {
                                 {/* Recipe Block */}
                                 <div className="recipe-block">
                                     <div className="inner-box">
-                                        <div className="icon"><img src="assets/images/resource/recipe-1.png" alt=""/></div>
-                                        <h6><Link href="menu">Cucumber</Link></h6>
+                                        <div className="icon"><img src="assets/images/resource/Foxnut.png" alt=""/></div>
+                                        <h6><Link href="menu">Foxnut</Link></h6>
                                         <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae</div>
                                     </div>
                                 </div>
@@ -37,8 +37,8 @@ export default function Recipe() {
                                 {/* Recipe Block */}
                                 <div className="recipe-block">
                                     <div className="inner-box">
-                                        <div className="icon"><img src="assets/images/resource/recipe-2.png" alt=""/></div>
-                                        <h6><Link href="menu">Apple</Link></h6>
+                                        <div className="icon"><img src="assets/images/resource/Mango-powder.png" alt=""/></div>
+                                        <h6><Link href="menu">Mango Powder</Link></h6>
                                         <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae</div>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@ export default function Recipe() {
                         <div className="image-column col-lg-2 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 <div className="image">
-                                    <img src="assets/images/resource/recipe.png" alt="" />
+                                    <img src="assets/images/resource/main-product.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -62,8 +62,8 @@ export default function Recipe() {
                                 {/* Recipe Block / Style Two */}
                                 <div className="recipe-block style-two">
                                     <div className="inner-box">
-                                        <div className="icon"><img src="assets/images/resource/recipe-3.png" alt=""/></div>
-                                        <h6><Link href="menu">Lemon</Link></h6>
+                                        <div className="icon"><img src="assets/images/resource/Olive-Oil.png" alt=""/></div>
+                                        <h6><Link href="menu">Olive Oil</Link></h6>
                                         <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae</div>
                                     </div>
                                 </div>
@@ -71,8 +71,8 @@ export default function Recipe() {
                                 {/* Recipe Block / Style Two */}
                                 <div className="recipe-block style-two">
                                     <div className="inner-box">
-                                        <div className="icon"><img src="assets/images/resource/recipe-4.png" alt=""/></div>
-                                        <h6><Link href="menu">Fresh Water</Link></h6>
+                                        <div className="icon"><img src="assets/images/resource/Spices.png" alt=""/></div>
+                                        <h6><Link href="menu">Spices</Link></h6>
                                         <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae</div>
                                     </div>
                                 </div>

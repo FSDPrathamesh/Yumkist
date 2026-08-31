@@ -233,7 +233,7 @@
 .banner-section .pattern-layer{
 	position:absolute;
 	left:0px;
-	bottom:0px;
+	bottom:70px;
 	width:100%;
 	height:164px;
 	z-index:2;
@@ -245,7 +245,7 @@
 	overflow:hidden;
 	padding-top:150px;
 	padding-bottom:0px;
-	background-color:#beb996;
+	background-color:#FEC33F;
 }
 
 .banner-section .slide.style-two{
@@ -1150,7 +1150,8 @@
 
 .juice-section .image-column .inner-column{
 	position:relative;
-	margin-left:-120px;
+	/* margin-left:-120px; */
+	height:100%;
 }
 
 .juice-section .image-column .image{

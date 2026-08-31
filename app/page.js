@@ -21,9 +21,9 @@ export default function Home() {
                 <Deal/>
                 <Recipe/>
                 <Fluid/>
-                <Testimonial />
-                <Blog />
-                <Gallery />
+                {/* <Testimonial /> */}
+                {/* <Blog /> */}
+                {/* <Gallery /> */}
 
                 
                 
